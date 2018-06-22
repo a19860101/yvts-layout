@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+* {
+    font-family: "Lato","微軟正黑體",sans-serif;
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+img {
+    /* max-width: 100%; */
+    width: 100%;
+    /* vertical-align: middle; */
+}
+
+.full-width {
+    width: 100%;
+}
+.fixed-width {
+    width: 1200px;
+    margin: auto;
+}
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+[class^="col"]{
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
