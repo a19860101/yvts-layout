@@ -1,10 +1,12 @@
-nav {}
+nav {
+    position: fixed;
+}
 nav a {
     display: block;
     padding-top: 30px;
     padding-bottom: 30px;
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 nav .logo {
     float: left;
@@ -30,7 +32,7 @@ header {
     text-align: center;
     display: table;
     background-image: 
-    linear-gradient(to bottom ,rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    linear-gradient(to bottom ,rgba(0,0,0,.3),rgba(0,0,0,.3)),
     url(../images/header.jpg);
     background-size: cover;
     background-position: center;

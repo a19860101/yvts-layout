@@ -68,3 +68,11 @@ ol,ul,li {
     display: block;
     clear: both;
 }
+
+.btn {
+    display: inline-block;
+    padding: 12px 40px;
+    color: #222;
+    background-color: #ffd900;
+    text-decoration: none;
+}
