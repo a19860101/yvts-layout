@@ -12,6 +12,9 @@ img {
     width: 100%;
     /* vertical-align: middle; */
 }
+ol,ul,li {
+    list-style: none;
+}
 
 .full-width {
     width: 100%;

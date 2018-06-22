@@ -1,0 +1,25 @@
+nav {}
+nav a {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: #000;
+}
+nav .logo {
+    float: left;
+    margin-right: 50px;
+}
+nav .menu {
+    float: left;
+}
+nav .menu li {
+    float: left;
+}
+nav .menu a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav .search {
+    float: right;
+}
