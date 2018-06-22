@@ -55,3 +55,17 @@ header .fixed-width {
     display: table-cell;
     vertical-align: middle;
 }
+.section-title {
+    text-align: center;
+    line-height: 3em;
+}
+
+#service i {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+}

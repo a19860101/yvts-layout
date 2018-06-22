@@ -82,3 +82,9 @@ ol,ul,li {
     background-color: var(--primaryColor);
     text-decoration: none;
 }
+
+p {
+    color: #444;
+    line-height: 2em;
+    font-size: 14px;
+}
