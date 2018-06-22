@@ -3,9 +3,15 @@
     font-family: "Lato","微軟正黑體",sans-serif;
     box-sizing: border-box;
 }
+:root {
+    --primaryColor: #ffd900;
+}
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
     margin: 0;
     padding: 0;
+}
+html,body {
+    /* height: 100%; */
 }
 img {
     /* max-width: 100%; */
@@ -73,6 +79,6 @@ ol,ul,li {
     display: inline-block;
     padding: 12px 40px;
     color: #222;
-    background-color: #ffd900;
+    background-color: var(--primaryColor);
     text-decoration: none;
 }
