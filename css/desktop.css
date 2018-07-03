@@ -87,8 +87,9 @@ header .fixed-width {
     text-align: left;
 }
 #product .col-3 {
-    height: 400px;
+    height: 300px;
     position: relative;
+    overflow: hidden;
 }
 #product a {
     display: block;
@@ -97,13 +98,26 @@ header .fixed-width {
 }
 #product .section-slogan {
     width: 100%;
-    height: 400px;
     background-color: rgba(0,0,0,.4);
-    line-height: 400px;
     text-align: center;
     position: absolute;
     z-index: 30;
+    line-height: 300px;
+    transition: all .6s;
+    top: 0;
+   
+}
+#product .product-content {
+    line-height: 1.5em;
+    height: 300px; padding: 40px;
+}
+#product a:hover .section-slogan{
+    top: -300px;
+    z-index: 40;
+    
 }
 #product .product-img {
     position: absolute;
+    width: 600px;
+    height: 400px;
 }
