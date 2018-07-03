@@ -120,4 +120,5 @@ header .fixed-width {
     position: absolute;
     width: 600px;
     height: 400px;
+    left: -30px;
 }
