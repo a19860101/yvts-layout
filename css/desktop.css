@@ -46,6 +46,7 @@ header h1 {
 header p {
     font-size: 1.5em;
     line-height: 3.5em;
+    color: #fff;
 }
 header a {
     text-decoration: none;
@@ -60,6 +61,10 @@ header .fixed-width {
     line-height: 3em;
 }
 
+#service {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 #service i {
     display: block;
     width: 75px;
@@ -68,4 +73,9 @@ header .fixed-width {
     border-radius: 50%;
     text-align: center;
     line-height: 75px;
+}
+#history {
+    background-color: #eee;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
