@@ -163,3 +163,15 @@ footer h3 {
 footer .info {
     margin: 30px auto;
 }
+#sns {
+    background-color: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #eee;
+}
+#sns a {
+    color: #eee;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
