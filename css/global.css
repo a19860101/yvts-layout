@@ -82,7 +82,9 @@ ol,ul,li {
     background-color: var(--primaryColor);
     text-decoration: none;
 }
-
+.nopa {
+    padding: 0!important;
+}
 p {
     color: #444;
     line-height: 2em;

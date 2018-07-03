@@ -86,3 +86,24 @@ header .fixed-width {
 #history .section-title {
     text-align: left;
 }
+#product .col-3 {
+    height: 400px;
+    position: relative;
+}
+#product a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#product .section-slogan {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0,0,0,.4);
+    line-height: 400px;
+    text-align: center;
+    position: absolute;
+    z-index: 30;
+}
+#product .product-img {
+    position: absolute;
+}
