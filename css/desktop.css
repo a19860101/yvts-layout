@@ -59,8 +59,12 @@ header .fixed-width {
 .section-title {
     text-align: center;
     line-height: 3em;
+    text-transform: uppercase;
 }
-
+.section-slogan {
+    line-height: 1.6em;
+    margin-bottom: 18px;
+}
 #service {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -78,4 +82,7 @@ header .fixed-width {
     background-color: #eee;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+#history .section-title {
+    text-align: left;
 }
