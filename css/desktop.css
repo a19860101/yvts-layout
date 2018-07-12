@@ -1,4 +1,64 @@
-nav {
+@media screen and (min-width:1200px){
+    .fixed-width {
+        width: 1200px;
+        margin: auto;
+    }
+    .col-1 {
+        width: calc(100% / 12 * 1);
+    }
+    .col-2 {
+        width: calc(100% / 12 * 2);
+    }
+    .col-3 {
+        width: calc(100% / 12 * 3);
+    }
+    .col-4 {
+        width: calc(100% / 12 * 4);
+    }
+    .col-5 {
+        width: calc(100% / 12 * 5);
+    }
+    .col-6 {
+        width: calc(100% / 12 * 6);
+    }
+    .col-7 {
+        width: calc(100% / 12 * 7);
+    }
+    .col-8 {
+        width: calc(100% / 12 * 8);
+    }
+    .col-9 {
+        width: calc(100% / 12 * 9);
+    }
+    .col-10 {
+        width: calc(100% / 12 * 10);
+    }
+    .col-11 {
+        width: calc(100% / 12 * 11);
+    }
+    .col-12 {
+        width: calc(100% / 12 * 12);
+    }
+    [class^="col"]{
+        float: left;
+        padding: 15px;
+    }
+    
+    
+    .btn {
+        display: inline-block;
+        padding: 12px 40px;
+        color: #222;
+        background-color: var(--primaryColor);
+        text-decoration: none;
+    }
+    p {
+        color: #444;
+        line-height: 2em;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    nav {
     position: fixed;
 }
 nav a {
@@ -174,4 +234,5 @@ footer .info {
     text-decoration: none;
     margin-left: 5px;
     margin-right: 5px;
+}
 }
