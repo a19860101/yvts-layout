@@ -101,9 +101,9 @@ header .fixed-width {
 #service {
     padding-top: 100px;
     padding-bottom: 100px;
-
+    text-align: center;
 }
-#service .{
+#service .section-slogan{
     text-align: center;
 }
 #service i {
@@ -156,7 +156,7 @@ header .fixed-width {
 #product .product-content {
     line-height: 1.5em;
     height: 300px;
-    padding: 20px 40px;
+    padding: 20px;
 }
 /* #product a:hover .section-slogan {
     top: -300px;
@@ -167,4 +167,60 @@ header .fixed-width {
     width: 600px;
     height: 400px;
     left: -30px;
+}
+#news {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#news .news-author {
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+#news .news-date {
+    color: var(--primaryColor);
+}
+#news .col-12 {
+    text-align: center;
+}
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #333;
+    color: #fff;
+
+    text-align: center;
+}
+footer li {
+    line-height: 1.8em;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer p {
+    color: #999;
+    margin-bottom: 20px;
+}
+footer .author {
+    color: #fff;
+}
+footer h3 {
+    margin-bottom: 30px;
+}
+footer .info {
+    margin: 30px auto;
+}
+#sns {
+    background-color: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #eee;
+
+    text-align: center;
+}
+#sns a {
+    color: #eee;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
 }
