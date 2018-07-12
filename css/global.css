@@ -26,7 +26,16 @@ ol,ul,li {
 .full-width {
     width: 100%;
 }
-.fixed-width {
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.nopa {
+    padding: 0!important;
+}
+/*******************************************************************************/
+/* .fixed-width {
     width: 1200px;
     margin: auto;
 }
@@ -70,11 +79,7 @@ ol,ul,li {
     float: left;
     padding: 15px;
 }
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+
 
 .btn {
     display: inline-block;
@@ -83,12 +88,10 @@ ol,ul,li {
     background-color: var(--primaryColor);
     text-decoration: none;
 }
-.nopa {
-    padding: 0!important;
-}
+
 p {
     color: #444;
     line-height: 2em;
     font-size: 14px;
     margin-bottom: 50px;
-}
+} */
