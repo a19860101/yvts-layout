@@ -25,7 +25,7 @@ p {
 
 /*nav*/
 nav {
-    /* position: fixed; */
+    position: fixed;
 
     background-color: #333;
 }
